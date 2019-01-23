@@ -54,8 +54,8 @@ class  LoginViewController: UIViewController,FUIAuthDelegate{
         UserService.show(forUID: user.uid) { user in
             if let user = user {
                 //if snapshot return an existing user info, User init successfully and user != nil
-                //call singlton to set user
-                User.setCurrent(user)
+                //call singlton to set user and also set user to system default
+                User.setCurrent(user, writeToUserDefaults: true);
                 print("Welcome back, \(user.username)")
                 let newStoryBoard = UIStoryboard(name: "Main", bundle: .main)
                 if let initialViewController = newStoryBoard.instantiateInitialViewController() {

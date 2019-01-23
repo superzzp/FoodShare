@@ -11,13 +11,16 @@
 		0B23B45321EC100D005693EA /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B23B45221EC100D005693EA /* CreateUsernameViewController.swift */; };
 		0B23B45521ED9499005693EA /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B23B45421ED9499005693EA /* UserService.swift */; };
 		0B5A5F2A21E1826A005162EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A5F2921E1826A005162EB /* AppDelegate.swift */; };
-		0B5A5F2C21E1826A005162EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A5F2B21E1826A005162EB /* ViewController.swift */; };
+		0B5A5F2C21E1826A005162EB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A5F2B21E1826A005162EB /* MainTabBarController.swift */; };
 		0B5A5F2F21E1826A005162EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5A5F2D21E1826A005162EB /* Main.storyboard */; };
 		0B5A5F3121E1826B005162EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5A5F3021E1826B005162EB /* Assets.xcassets */; };
 		0B5A5F3421E1826B005162EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5A5F3221E1826B005162EB /* LaunchScreen.storyboard */; };
 		0B5A5F3C21E18433005162EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B5A5F3B21E18433005162EB /* GoogleService-Info.plist */; };
 		0B5A5F4721E4110A005162EB /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5A5F4621E4110A005162EB /* Login.storyboard */; };
 		0B5A5F4921E4127E005162EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5A5F4821E4127E005162EB /* LoginViewController.swift */; };
+		0BDB84B221F71155003E322C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB84B121F71155003E322C /* HomeViewController.swift */; };
+		0BDB84B421F7116C003E322C /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB84B321F7116C003E322C /* FindFriendsViewController.swift */; };
+		0BDB84B821F85B5E003E322C /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB84B721F85B5E003E322C /* MGPhotoHelper.swift */; };
 		0BE4002621F31CE200922BB9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE4002521F31CE200922BB9 /* Constants.swift */; };
 		0BE4002821F31F6200922BB9 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE4002721F31F6200922BB9 /* Storyboard+Utility.swift */; };
 		E69020794880807025FF2427 /* Pods_FoodShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2909370FE59D5864B9CC1DE3 /* Pods_FoodShare.framework */; };
@@ -29,7 +32,7 @@
 		0B23B45421ED9499005693EA /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		0B5A5F2621E1826A005162EB /* FoodShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5A5F2921E1826A005162EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B5A5F2B21E1826A005162EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B5A5F2B21E1826A005162EB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		0B5A5F2E21E1826A005162EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B5A5F3021E1826B005162EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5A5F3321E1826B005162EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +40,9 @@
 		0B5A5F3B21E18433005162EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0B5A5F4621E4110A005162EB /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		0B5A5F4821E4127E005162EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0BDB84B121F71155003E322C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0BDB84B321F7116C003E322C /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		0BDB84B721F85B5E003E322C /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		0BE4002521F31CE200922BB9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0BE4002721F31F6200922BB9 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		2909370FE59D5864B9CC1DE3 /* Pods_FoodShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,9 +100,11 @@
 		0B5A5F3D21E18784005162EB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0B5A5F2B21E1826A005162EB /* ViewController.swift */,
+				0B5A5F2B21E1826A005162EB /* MainTabBarController.swift */,
 				0B5A5F4821E4127E005162EB /* LoginViewController.swift */,
 				0B23B45221EC100D005693EA /* CreateUsernameViewController.swift */,
+				0BDB84B121F71155003E322C /* HomeViewController.swift */,
+				0BDB84B321F7116C003E322C /* FindFriendsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 		0B5A5F4021E187BA005162EB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0BDB84B721F85B5E003E322C /* MGPhotoHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -331,7 +340,10 @@
 				0B23B45121EC08D2005693EA /* User.swift in Sources */,
 				0B5A5F4921E4127E005162EB /* LoginViewController.swift in Sources */,
 				0BE4002821F31F6200922BB9 /* Storyboard+Utility.swift in Sources */,
-				0B5A5F2C21E1826A005162EB /* ViewController.swift in Sources */,
+				0B5A5F2C21E1826A005162EB /* MainTabBarController.swift in Sources */,
+				0BDB84B821F85B5E003E322C /* MGPhotoHelper.swift in Sources */,
+				0BDB84B421F7116C003E322C /* FindFriendsViewController.swift in Sources */,
+				0BDB84B221F71155003E322C /* HomeViewController.swift in Sources */,
 				0BE4002621F31CE200922BB9 /* Constants.swift in Sources */,
 				0B23B45321EC100D005693EA /* CreateUsernameViewController.swift in Sources */,
 				0B5A5F2A21E1826A005162EB /* AppDelegate.swift in Sources */,
@@ -483,7 +495,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3287ZJLF32;
-				INFOPLIST_FILE = "$(SRCROOT)/FoodShare/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FoodShare/Supporting-Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -502,7 +514,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3287ZJLF32;
-				INFOPLIST_FILE = "$(SRCROOT)/FoodShare/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FoodShare/Supporting-Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
